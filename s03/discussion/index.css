@@ -24,6 +24,14 @@ h1 {
 	font-family: "Tahoma", sans-serif;	
 }
 
+nav {
+	background-color: white;
+	text-align: center;
+	/*padding is property that allows us to add a space within an element*/
+	padding: 15px;
+}
+
+
 /*
 Class Selector
 	To use a class selector, add a period before the name of target class
@@ -35,7 +43,38 @@ Class Selector
 }
 
 .title {
-	color: green;
+	/*color: green;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*
+	ID Selector
+	- To use an ID selector, add a hash or pound sign before the name of the target class.
+	#idName {}
+	
+*/
+#hello {
+	color: black;
+	font-size: 2rem;
+	/*rem - measurement called the root element*/
+}
+
+section {
+	text-align: center;
+}
+
+#logo {
+	height: 300px;
+	width: 300px;
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a {
+	text-decoration: none;
 }
 
 #modules {
@@ -61,6 +100,11 @@ Class Selector
 	border-radius: 10px;
 }
 
+.module-image {
+	height: 200px;
+	width: 200px;
+}
+
 
 /*
 	Without border-box
@@ -74,42 +118,10 @@ Class Selector
 */
 
 
-/*
-	ID Selector
-	- To use an ID selector, add a hash or pound sign before the name of the target class.
-	#idName {}
-	
-*/
-#hello {
-	color: black;
-	font-size: 2rem;
-	/*rem - measurement called the root element*/
-}
-
-#logo {
-	height: 300px;
-	width: 300px;
-	border-radius: 150px;
-}
-
-a {
-	text-decoration: none;
-}
-
-nav {
-	background-color: white;
-	text-align: center;
-	/*padding is property that allows us to add a space within an element*/
-	padding: 15px;
-}
-
-
-
-section {
-	text-align: center;
-}
-
 body {
 	background-color: skyblue;
 }
 
+html {
+	scroll-behavior: smooth;
+}
